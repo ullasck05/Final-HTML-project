@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Registration Form</title>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td><label for="fname">Name</label></td>
+            <td>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                required
+                placeholder="Ex:Abhishek"
+                maxlength="10"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Sname">Surname</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="T"
+                required
+                name="Sname"
+                id="Sname"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Mobile No">Mobile No</label></td>
+            <td>
+              <input
+                type="tel"
+                placeholder="9877948748"
+                required
+                name="Mobile No"
+                id="Mobile No"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Email">Email</label></td>
+            <td>
+              <input
+                type="email"
+                required
+                placeholder="jhbdsgfb@gmial.com"
+                name="Email"
+                id="Email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>
+              <input type="password" required name="password" id="password" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Confirm Password</label></td>
+            <td>
+              <input type="password" required name="password" id="password" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="D.O.B ">D.O.B</label></td>
+            <td><input type="date" name="D.O.B" id="D.O.B" /></td>
+          </tr>
+          <tr>
+            <td><label for="Age">Age:</label></td>
+            <td>
+              <input
+                type="number"
+                minlength="18"
+                maxlength="65"
+                required
+                name="Age"
+                id="Age"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Gender">Gender</label></td>
+            <td>
+              <input
+                type="radio"
+                value="Male"
+                name="Gender"
+                id="Gender"
+              /><label for="">Male</label>
+              <input
+                type="radio"
+                value="Female"
+                name="Gender"
+                id="Gender"
+              /><label for="">Female</label
+              ><input
+                type="radio"
+                value="Others"
+                name="Gender"
+                id="Gender"
+              /><label for="">Others</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Selection">Select Country</label></td>
+            <td>
+              <select name="Country" id="Country">
+                <option value="INDIA">INDIA</option>
+                <option value="CHINA">CHINA</option>
+                <option value="USA">USA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Upload">Upload Picture</label></td>
+            <td><input type="file" name="Upload" id="Upload" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <input type="reset" /><br />
+      <fieldset>
+        <legend>Course Details</legend>
+        <table>
+        <tr>
+          <label for="selection">Select Course</label>
+        </tr>
+        <td>
+          <select name="course" id="course">
+            <option value="">Python</option>
+            <option value="">Java</option>
+            <option value="">Web development</option>
+            <option value="">SQL</option>
+          </select>
+        </td>
+        <tr>
+          <td><label for="dmode">Delivery mode</label></td>
+          <td>
+            <input type="radio" name="dmode" id="dmode" value="Online" />Online
+          </td>
+          <td><input type="radio" name="dmode" id="dmode">Offline</td>
+          <tr>
+            <td><label for="iname">Institute name</label></td>
+            <td><input type="text" name="iname" id="iname"></td>
+          </tr>
+          <tr>
+            <td><label for="level">Choose your present coding knowledge level</label></td>
+          </tr>
+          <tr><td><input type="range" name="level" id="level"></td></tr>
+          <tr>
+            <td><label for="comm">Comments</label></td>
+          </tr>
+          <tr>
+            <td><textarea name="comm" id="comm" style="resize: none;"></textarea></td>
+          </tr>
+        </tr>
+      </table>
+      </fieldset>
+      <input type="submit">
+    </form>
+  </body>
+</html>
