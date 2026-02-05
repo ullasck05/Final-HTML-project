@@ -1,0 +1,105 @@
+/* ===== PAGE BASE ===== */
+body {
+  background-color: #020617;
+  background-image: linear-gradient(180deg, #020617, #0b0f1a, #020617);
+  color: #e5e7eb;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 24px;
+}
+
+/* ===== MAIN TITLE ===== */
+h1 {
+  background-image: linear-gradient(135deg, #0f172a, #111827, #020617);
+  -webkit-text-stroke: 1px #22d3ee;
+  text-align: center;
+  border-radius: 22px;
+  padding: 20px;
+  margin: 30px 0;
+  box-shadow: 0px 0px 30px rgba(34, 211, 238, 0.45);
+}
+
+/* ===== SECTION HEADINGS ===== */
+h2 {
+  background-image: linear-gradient(90deg, #020617, #1f2937);
+  border-left: 7px solid #22d3ee;
+  border-radius: 14px;
+  padding: 14px;
+  margin: 40px 0 20px 0;
+  box-shadow: 0px 0px 18px rgba(34, 211, 238, 0.25);
+}
+
+/* ===== SUB HEADINGS ===== */
+h3 {
+  margin: 20px 0 10px 0;
+  padding: 6px 0;
+  color: #a5f3fc;
+}
+
+/* ===== AUDIO PLAYER CARD ===== */
+audio {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 30px 0;
+  border-radius: 40px;
+  box-shadow:
+    0px 0px 30px rgba(34, 211, 238, 0.6),
+    0px 0px 60px rgba(34, 211, 238, 0.25);
+}
+
+/* ===== IMAGE / POSTER CARD ===== */
+img {
+  background-image: linear-gradient(145deg, #020617, #111827);
+  padding: 12px;
+  margin: 20px 20px 30px 0;
+  border-radius: 22px;
+  box-shadow:
+    0px 15px 35px rgba(0, 0, 0, 0.9),
+    0px 0px 25px rgba(34, 211, 238, 0.45);
+}
+
+/* ===== VIDEO / TRAILER CARD ===== */
+video {
+  background-image: linear-gradient(145deg, #020617, #111827);
+  padding: 12px;
+  margin: 20px 0 40px 0;
+  border-radius: 20px;
+  box-shadow:
+    0px 15px 40px rgba(0, 0, 0, 0.85),
+    0px 0px 30px rgba(34, 211, 238, 0.45);
+}
+
+/* ===== CONTENT PARAGRAPH CARD ===== */
+p {
+  background-image: linear-gradient(180deg, #111827, #020617);
+  padding: 20px;
+  margin: 20px 0 40px 0;
+  border-radius: 16px;
+  box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.75);
+  line-height: 1.7;
+}
+
+/* ===== HIGHLIGHT ===== */
+mark {
+  background-image: linear-gradient(90deg, #22d3ee, #38bdf8);
+  color: #020617;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* ===== DELETED TEXT ===== */
+del {
+  background-image: linear-gradient(90deg, #020617, #1f2937);
+  color: #9ca3af;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+/* ===== DIVIDER ===== */
+hr {
+  margin: 50px 0;
+  height: 2px;
+  background-image: linear-gradient(90deg, transparent, #22d3ee, transparent);
+  box-shadow: 0px 0px 18px rgba(34, 211, 238, 0.5);
+  border-radius: 10px;
+}
